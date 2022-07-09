@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/qes7oea.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="top-border"></div>
+
+        <div class="controlsLeft"></div>
+        <div class="canvas">
+            <!-- <div id="r" class="1"></div>
+            <div id="r" class="2"></div>
+            <div id="r" class="b"></div>
+            <div id="r" class="c"></div>
+            <div id="r" class="e"></div>
+            <div id="r" class="f"></div>
+            <div id="r" class="g"></div>
+            <div id="r" class="h"></div>
+            <div id="r" class="i"></div>
+            <div id="r" class="j"></div>
+            <div id="r" class="k"></div>
+            <div id="r" class="l"></div>
+            <div id="r" class="m"></div>
+            <div id="r" class="n"></div>
+            <div id="r" class="o"></div> -->
+
+
+            <h1 class="text head" contenteditable="true"> Header </h1>
+            <h1 class="text subHead" contenteditable="true"> Sub Header </h1>
+            <h1 class="text newText1 n" contenteditable="true"> New Text </h1>
+            <h1 class="text newText2 n" contenteditable="true"> New Text </h1>
+            <h1 class="text newText3 n" contenteditable="true"> New Text </h1>
+
+
+        </div>
+        <div class="controlsRight">
+            <div class="controlHeaders">
+                <h1 class="titles">Typography</h1>
+                <button class="typographyCollapse" id="collapse">COLLAPSE</button>
+            </div>
+            <div class="typography">
+                <div class="inputs">
+                    <p>Tracking</p>
+                    <input class="inputBox tracking"type="number" value="5">
+                </div>
+                <div class="inputs">
+                    <p>Font Size</p>
+                    <input class="inputBox fontSize" type="number" value="0">
+                </div>
+                <div class="inputs">
+                    <p>Weight</p>
+                    <select class="inputBox weight">
+                        <option>100</option>
+                        <option>200</option>
+                        <option>300</option>
+                        <option>400</option>
+                        <option>500</option>
+                        <option>600</option>
+                        <option>700</option>
+                        <option>800</option>
+                        <option>900</option>
+                    </select>
+                </div>
+            </div>
+            <div class="controlHeaders">
+                <h1 class="titles">Transform</h1>
+                <button class="transformCollapse" id="collapse">COLLAPSE</button>
+            </div>
+            <div class="transform">
+                <div class="inputs">
+                    <p>↓</p>
+                    <input class="inputBox top"type="number" value="5">
+                    <p>→</p>
+                    <input class="inputBox left"type="number" value="5">
+                </div>
+            </div>
+            <div class="controlHeaders">
+                <h1 class="titles">Text</h1>
+                <button class="textCollapse" id="collapse">COLLAPSE</button>
+            </div>
+            <div class="text">
+                <div class="inputs textCollapsable">
+                    <button class="addText">+ text box</button>
+                </div>
+            </div>
+            <h1 class="titles">Animate</h1>            
+            <div class="inputs animateCollapsable">
+                <div class="svgDiv">
+                    <p>enter svg embed</p>
+                    <input class="inputBoxLong svgEntry" type="text" >
+                    <div class="params">
+                        <p>Number of items</p>
+                        <input type="number" class="inputBox numberOfObjects">
+                        <button class="animate">animate</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="bottomBorder"></div>
+
+    </div> 
+</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="functions.js"></script>
+    <script src="animations.js"></script>
+
+    <script src="main.js"></script>
+  
+
+</html>
